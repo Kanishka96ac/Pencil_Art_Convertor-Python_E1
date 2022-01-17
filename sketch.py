@@ -30,4 +30,4 @@ blur = scipy.ndimage.filters.gaussian_filter(i,sigma = 15)
 
 r = dodge(blur, gray)
 
-cv2.imwrite('lw_kani.png', r)
+cv2.imwrite('lworld_kani.png', r)
